@@ -9,8 +9,13 @@ If you used my codes for your paper, please cite this toolbox in your publicatio
 
 Lan, Z. Toolbox for National Inpatient Sample (NIS) (Version 0.0.1) [Computer software].
 
-Please make sure that your computers meet the following requirements:
+Please make sure that your HPC Supercomputer meets the following requirements:
 | System | Version | Description | 
 | --------- | --------- | ----------------- | 
-| Turchin et al., 2020 | Non-acceptance of insulin therapy by patients | Time to HbA1c < 7.0% |
-
+| Slurm | 22.05.5 | Submission System for Job Scheduler |
+| Python | >3.10 | Programming Software |
+| pyreadstat |  | Python Package |
+| multiprocessing |  | Python Package |
+| pandas |  | Python Package |
+| numpy |  | Python Package |
+| os |  | Python Package |
