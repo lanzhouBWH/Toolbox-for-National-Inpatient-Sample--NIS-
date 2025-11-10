@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/data/cci_radiology/CCI/TRG/NIS_Study_Codes/DiagProc_Matching/hip_replacement_dvt/Code/Step2_Frequencies.py", line 48, in <module>
+    CodeSet.at[i, 'DESCRIPTION'] = ICD10PROC.lookup(CodeSet.at[i,vv])
+  File "/PHShome/zz962/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 2431, in __getitem__
+    return super().__getitem__(key)
+  File "/PHShome/zz962/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 2382, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+  File "/PHShome/zz962/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 3917, in _get_value
+    series = self._get_item_cache(col)
+  File "/PHShome/zz962/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 4277, in _get_item_cache
+    res = cache.get(item)
+TypeError: unhashable type: 'list'
