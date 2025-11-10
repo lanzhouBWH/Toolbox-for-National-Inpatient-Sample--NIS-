@@ -14,8 +14,8 @@ Please make sure that your HPC Supercomputer meets the following requirements:
 | --------- | --------- | ----------------- | 
 | Slurm | 22.05.5 | Submission System for Job Scheduler |
 | Python | >3.10 | Programming Software |
-| pyreadstat |  | Python Package |
-| multiprocessing |  | Python Package |
-| pandas |  | Python Package |
-| numpy |  | Python Package |
-| os |  | Python Package |
+| pyreadstat | >1.3.2 | Python Package |
+| multiprocessing | >3.14 | Python Package |
+| pandas | >2.3.3 | Python Package |
+| numpy | >2.3.4 | Python Package |
+
